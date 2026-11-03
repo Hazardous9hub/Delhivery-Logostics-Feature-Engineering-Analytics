@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environments & IDEs
+.vscode/
+.idea/
+*.venv/
+env/
+
+# Large Datasets (delhivery_data.csv is 55.6 MB)
+*.csv
+
+# Temporary export files
+export_*.py
+inspect_*.py
+test_*.py
+*Cover_Page*
+*updated-for-pdf*
+*delhivery_eda.ipynb*
+*Delhivery_case_study_ipynb_PDF.pdf*
