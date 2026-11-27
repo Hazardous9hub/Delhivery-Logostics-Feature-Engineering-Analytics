@@ -9,7 +9,7 @@
 
 <div align="center">
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hazardous9hub/Delhivery-Logostics-Feature-Engineering-Analytics/blob/main/notebooks/delhivery-feature-engineering-case-study.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hazardous9hub/Delhivery-Logistics-Feature-Engineering-Analytics/blob/main/notebooks/delhivery-feature-engineering-case-study.ipynb)
 [![Kaggle Dataset](https://img.shields.io/badge/Kaggle_Dataset-Delhivery_Logistics_Data-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/shivaling09/delhivery-logistics-network-and-route-data)
 
 </div>
@@ -169,14 +169,15 @@ Data was partitioned using the existing pipeline split:
 ## 8. Repository Layout
 
 ```text
-├── README.md               # Executive analysis and project documentation
-├── requirements.txt        # Python dependency manifest
-├── LICENSE                 # MIT License
-├── notebooks/              # Jupyter analysis notebooks
+├── README.md                                  # Executive analysis and project documentation
+├── delhivery_case_study_problem_statement.md  # Official business case brief & rubric
+├── eda_tools.py                               # Reusable automated EDA health-check utility
+├── requirements.txt                           # Python dependency manifest
+├── LICENSE                                    # MIT License
+├── notebooks/                                 # Jupyter analysis notebooks
 │   └── delhivery-feature-engineering-case-study.ipynb
-└── docs/                   # Executive presentation and exported HTML
-    ├── Shivaling_Delhivery_Business_Case_Study_Scaler.pdf
-    └── delhivery-feature-engineering-case-study_clean.html
+└── docs/                                      # Executive case study report
+    └── Shivaling_Delhivery_Logistics_Business_Case_Study.pdf
 ```
 
 ---
@@ -185,8 +186,8 @@ Data was partitioned using the existing pipeline split:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Hazardous9hub/Delhivery-Logostics-Feature-Engineering-Analytics.git
-   cd Delhivery-Logostics-Feature-Engineering-Analytics
+   git clone https://github.com/Hazardous9hub/Delhivery-Logistics-Feature-Engineering-Analytics.git
+   cd Delhivery-Logistics-Feature-Engineering-Analytics
    ```
 
 2. **Download Dataset**:
